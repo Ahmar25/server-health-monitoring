@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-06-19T12:15:12Z",
+  "cpu": {
+    "used_pct": "1.2",
+    "load_avg": "0.01, 0.11, 0.07"
+  },
+  "memory": {
+    "total_mb": "7844",
+    "used_mb": "712",
+    "free_mb": "6984",
+    "used_pct": "9.0"
+  },
+  "disk": {
+    "total": "1007G",
+    "used": "2.2G",
+    "used_pct": "1"
+  },
+  "network": {
+    "rx_bytes": "32872",
+    "tx_bytes": "48917",
+    "ping_ms": "22.6",
+    "open_ports": "80,46115"
+  },
+  "processes": {
+    "count": "13"
+  }
+}

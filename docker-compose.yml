@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  monitor:
+    build: .
+    container_name: server-health-monitor
+    ports:
+      - "8080:80"
+    volumes:
+      - ./data:/data
+    restart: unless-stopped
